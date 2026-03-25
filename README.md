@@ -36,6 +36,7 @@ This repo is intentionally **evaluation-only**. In scope are: benchmarks, leader
 | A Survey on Vision-Language-Action Models: An Action Tokenization Perspective | Useful for tracing evaluation papers through action-tokenization and policy-design literature. | [paper](https://arxiv.org/abs/2507.01925) |
 | A Taxonomy for Evaluating Generalist Robot Manipulation Policies | STAR-Gen taxonomy and reproducible guidelines for measuring visual, semantic, and behavioral generalization of generalist robot policies. | [paper](https://arxiv.org/abs/2503.01238)  · [project](https://stargen-taxonomy.github.io/) |
 | vla-evaluation-harness | Unified open evaluation harness and leaderboard spanning many robot simulation benchmarks. | [paper](https://arxiv.org/abs/2603.13966)  · [repo](https://github.com/allenai/vla-evaluation-harness)  · [leaderboard](https://allenai.github.io/vla-evaluation-harness/leaderboard/) |
+| Manipulation-Net | Resource hub for robotic manipulation benchmarking; provides downloadable components for running benchmarks. | [site](https://manipulation-net.org/) |
 | MultiNet: An Open-Source Software Toolkit & Benchmark Suite for Multimodal Action Models | Open-source benchmark ecosystem and tooling for standardized evaluation and adaptation across multimodal action tasks. | [paper](https://arxiv.org/abs/2506.09172)  · [repo](https://github.com/ManifoldRG/MultiNet)  · [project](https://multinet.ai/) |
 ## Benchmarks
 | Resource | Focus | Links |
@@ -181,7 +182,6 @@ Excluded by default:
 - generic VLM-only benchmarks unless they are directly useful for VLA policy evaluation, robotic grounding diagnostics, or automatic judging
 
 ## Notes
-- Some **Round 3** entries come from direct backward-reference traversal of the current README corpus, while others come from their **recent cited-by neighborhoods** when the connection to VLA evaluation was strong.
 - The **reward-model** section intentionally includes papers that also support RL or policy improvement, but only when they expose a reusable **evaluation signal** such as success detection, progress estimation, trajectory ranking, or a reward benchmark.
 - Diagnostic resources such as **MV-RoboBench**, **RoboMME**, and **Robust Skills, Brittle Grounding** are kept because they isolate specific failure modes that standard success-rate benchmarks often hide.
 - World-model and off-policy works are included only when the main contribution is **evaluation** or **evaluation methodology**, not generic policy learning.
