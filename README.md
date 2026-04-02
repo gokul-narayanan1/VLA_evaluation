@@ -5,8 +5,7 @@
   <p><i>A curated and organized hub for evaluating generalist robot policies: benchmarks, world-model proxies, autonomous judges, statistical frameworks, and runtime safety monitors.</i></p>
   
   [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-  [![Coverage: 2017-2026](https://img.shields.io/badge/Coverage-2017--2026-teal.svg)](#)
-  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#)
+   [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#)
 </div>
 
 ---
