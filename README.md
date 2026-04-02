@@ -5,7 +5,7 @@ This repo is intentionally **evaluation-only**. In scope are: benchmarks, leader
 The **Benchmarks overview** figure below is a quick map of the evaluation landscape covered here: benchmarks/suites vs harnesses/leaderboards vs evaluator/judge models, spanning simulation, world-model proxy, and real-world evaluation settings.
 Use it to orient; the sections below link out to the underlying papers, code, and leaderboards.
 
-![Benchmarks overview](data/benchmarks.png)
+![Benchmarks overview](data/vla_benchmark_organization_fixed.png)
 
 <!-- ## Benchmark evolution (timeline)
 ![Evolution of VLA evaluation resources over time](data/benchmark_evolution.png)
