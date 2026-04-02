@@ -4,6 +4,13 @@
 # Python
 __pycache__/
 *.pyc
+.venv/
+
+# Local generated artifacts (not committed)
+data/benchmark_evolution.csv
+data/benchmark_evolution.png
+scripts/plot_benchmark_evolution.py
+scripts/update_readme_year_and_sort.py
 
 # Jupyter
 .ipynb_checkpoints/
@@ -17,5 +24,8 @@ build/
 Thumbs.db
 .vscode/
 .idea/
+
+# Local diagnostics
+gcm-diagnose.log
 
 
