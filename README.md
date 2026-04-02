@@ -2,6 +2,11 @@
 A curated, repo-ready list of **evaluation systems, benchmarks, and runtime assessment methods for Vision-Language-Action (VLA) models**.
 This repo is intentionally **evaluation-only**. In scope are: benchmarks, leaderboards, testing platforms, probing suites, autonomous evaluators, reward/evaluation models, simulation and world-model evaluation systems, uncertainty metrics, failure predictors, OOD detectors, deployment-time monitors, and policy-comparison methodology. General VLA model papers are out of scope unless they introduce a concrete evaluation protocol, evaluator, or benchmark.
 
+The **Benchmarks overview** figure below is a quick map of the evaluation landscape covered here: benchmarks/suites vs harnesses/leaderboards vs evaluator/judge models, spanning simulation, world-model proxy, and real-world evaluation settings.
+Use it to orient; the sections below link out to the underlying papers, code, and leaderboards.
+
+![Benchmarks overview](data/benchmarks.png)
+
 <!-- ## Benchmark evolution (timeline)
 ![Evolution of VLA evaluation resources over time](data/benchmark_evolution.png)
 
